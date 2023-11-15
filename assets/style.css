@@ -5,22 +5,68 @@
 }
 
 #meetourteam{
-    font-family: sans-serif;
+    font-family: 'Fredoka', sans-serif;
     color: #E53170;
     text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #lorem{
     font-family: sans-serif;
-    text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
+    text-align: center;
 }
 
 main{
-    width: 80%;
+    width: 80%; 
     margin: 0 auto;
-    border: 1px solid purple;
 }
+
+img{
+    height: 100px;
+    float: left;
+}
+
+
+.card{
+    float: left;
+    background-color: #0F0E17;
+    width: calc(95% / 3);
+    height: 100px;
+    margin: 30px 0px 30px 20px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 3px #D3D3D3;
+}
+
+.nomi{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.professioni{
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    margin-left: 5%;
+    line-height: 30px;
+}
+
+.email{
+    color: #22A7C7;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    margin-left: 5%;
+    line-height: 30px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
