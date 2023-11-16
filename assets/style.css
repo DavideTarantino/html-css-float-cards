@@ -44,8 +44,9 @@ img{
     color: white;
     font-family: 'Fredoka', sans-serif;
     font-size: 20px;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 5%;
+    display: inline-block;
 }
 
 .professioni{
